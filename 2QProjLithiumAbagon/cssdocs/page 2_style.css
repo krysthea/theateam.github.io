@@ -1,0 +1,156 @@
+header{   
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#home {
+    padding-left: 50px;
+    padding-right: 340px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+}
+#about_us {
+    padding-right: 50px;
+    padding-left: 340px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+}
+#logo {
+    padding: 20px;
+}
+#headline {
+    padding-bottom: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 500%;
+    transition: 0.3s;  
+}
+#headline:hover {
+    transform: scale(1.07);  
+}
+#p1, #p2, #p3 {
+    width: 70%;
+    height: 70%;
+    margin: 10px;
+}
+#p4 {
+    width: 60%;
+    height: 60%;
+    margin: 10px;
+    position: relative;
+    right: 70px;
+}
+#p1, #p3 {float: left;}
+#p2, #p4 {float: right}
+#div1, #div3 {
+    width: 350px;
+    float: right;
+    text-align: left;
+}
+#div2, #div4 {
+    width: 350px;
+    float: left;
+    text-align: right;
+    margin-left: 20px;
+}
+#div1 {
+    position: relative;
+    top: 70px;
+    margin-right: 25px;
+}
+#div2 {
+    position: relative;
+    top: 50px;
+}
+#div3 {
+    position: relative;
+    top: 20px;
+    margin-right: 25px;
+}
+#div4 {
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+#p1, #p2, #p3, #p4 {
+    padding-bottom: 30px;
+}
+nav {
+    position: relative;
+    top: 1370px;
+}
+nav li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    top: 400px;
+}
+nav a:link {
+    text-align: center;
+    padding: 10px 88px;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+}
+nav a:visited {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+nav a:hover {
+    background-color: rgb(118, 182, 255);
+    color:darkblue;
+}
+nav a:active { color: yellow;}
+footer {
+    z-index: 10;
+    position: absolute;
+    top: 1970px;
+    left: 20px;
+    width: 1260px;
+    margin-bottom: 10px;
+}
+#div5 {
+    background-color:rgb(89, 145, 209);
+    width: 1340px;
+    height: 326px;
+}
+#div6 {
+    background-color:rgb(147, 203, 255);
+    width: 1340px;
+    height: 300px;
+    position: relative;
+    top: 27px;
+    z-index: -1;
+}
+#div7 {
+    background-color: rgb(89, 145, 209);
+    width: 1340px;
+    height: 255px;
+    position: relative;
+    top: 55px;
+    z-index: -1;
+}
+#div8 {
+    background-color:rgb(147, 203, 255);
+    width: 1340px;
+    height: 330px;
+    position: relative;
+    top: 77px;
+    z-index: -1;
+}
+#divv {
+    background-color: black;
+    width: 1340px;
+    height: 30px;
+    position: relative;
+    bottom: 1260px;
+
+}
+article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,144 @@
+header{   
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#home {
+    padding-left: 50px;
+    padding-right: 340px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+}
+#about_us {
+    padding-right: 50px;
+    padding-left: 340px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+}
+#logo {
+    padding: 20px;
+}
+#headline {
+    padding-bottom: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 500%;
+    transition: 0.3s;  
+}
+#headline:hover {
+    transform: scale(1.07);  
+}
+#photo {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    z-index: 1;
+    bottom: 300px;
+}
+#div1, #div2, #div3, #div4, #div5, #div6 {
+    padding: 10px; 
+    margin: 5px;
+    width:410px;
+    height: 420px;
+    float: left;
+    text-align: center;
+    background-color: rgb(222, 218, 231);
+}
+aside {
+    position: relative;
+    bottom: 150px;
+}
+nav { z-index: 3;;}
+nav li {
+    list-style-type: none;
+    float: left;
+    bottom: 200px;
+}
+nav a:link {
+    text-align: center;
+    padding: 10px 88px;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+}
+nav a:visited {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+nav a:hover {
+    background-color: rgb(118, 182, 255);
+    color:darkblue;
+}
+nav a:active { color: yellow;}
+
+footer {
+    z-index: 10;
+    position: absolute;
+    top: 2400px;
+    left: 20px;
+    width: 1260px;
+    margin-bottom: 10px;
+}
+#fb:hover {opacity: 100%;}
+#ig:hover {opacity: 100%;}
+#pt:hover {opacity: 100%;}
+#tw:hover {opacity: 100%;}
+#fb {
+    opacity: 50%;
+    width: 52px;
+    height: 53px;
+    position: absolute;
+    right: 350px;
+    top: 2300px;
+    background: url(../images/spritesheet.png);
+}
+#ig {
+    opacity: 50%;
+    width: 52px;
+    height: 53px;
+    position: absolute;
+    right: 280px;
+    top: 2300px;
+    background: url(../images/spritesheet.png);
+    background-position: -54px 0;
+}
+#tw {
+    opacity: 50%;
+    width: 52px;
+    height: 53px;
+    position: absolute;
+    right: 210px;
+    top: 2300px;
+    background: url(../images/spritesheet.png);
+    background-position: -108px 0;
+}
+#pt {
+    opacity: 50%;
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    right: 140px;
+    top: 2300px;
+    background: url(../images/spritesheet.png);
+    background-position: -162px 0;
+}
+#author {
+    height: 100px;
+    width: 100px;
+    z-index: 20;
+    position: absolute;
+    left: 140px;
+    top: 2290px;
+}
+#about {
+    position: absolute;
+    left: 260px;
+    top: 2270px;
+}
+aside img {transition: 0.3s;}
+aside img:hover {transform: scale(1.09);}
